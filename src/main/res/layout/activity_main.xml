@@ -9,17 +9,10 @@
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
         android:textColor="@color/black"
-        android:layout_gravity="center"
-        android:text="Masukkan angka:" />
-
-    <EditText
-        android:id="@+id/edit_text"
-        android:layout_width="127dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:inputType="number" />
+        android:text="Tekan tombol untuk membaca posisi GPS" />
 
     <Button
         android:id="@+id/button"
@@ -27,13 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@drawable/button"
-        android:text="Buat QR Code"
-        app:iconPadding="10dp" />
-
-    <ImageView
-        android:id="@+id/image_view"
-        android:layout_width="249dp"
-        android:layout_height="317dp"
-        android:layout_gravity="center_horizontal" />
+        android:text="Baca Posisi" />
 
 </LinearLayout>
